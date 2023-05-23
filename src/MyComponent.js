@@ -4,6 +4,7 @@ import './App.css';
 const MyComponent = () => {
     return (
       <div className='image-container'>
+        
         <div className='item'>
             <img id="pic1" src={require('./assets/pic1.png')} alt="pic1" />
             <img id="pic3" src={require('./assets/pic3.png')} alt="pic3" />
